@@ -46,6 +46,6 @@ public class UserListRowView extends RelativeLayout {
         tv_jobTitle.setText(user.jobTitle);
         tv_userDateOfBirth.setText(
                 DateFormat.getDateInstance(DateFormat.MEDIUM)
-                        .format(user.dateOfBirth));
+                        .format(user.dateOfBirth.getTime()));
     }
 }
