@@ -4,8 +4,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 
-import java.util.List;
-
 /**
  * Instead of using the ViewHolder pattern, this
  * adapter utilizes a custom view for the User
@@ -39,7 +37,7 @@ public class UserAdapter extends BaseAdapter {
         }
 
         // We can now safely cast and set the data
-        ((UserListRowView)convertView).setUser(getItem(position));
+        ((UserListRowView) convertView).setUser(getItem(position));
 
         return convertView;
     }

@@ -5,12 +5,12 @@ import java.util.Calendar;
 public class User {
 
     public String name;
-    public String jobPosition;
+    public String jobTitle;
     public Calendar dateOfBirth;
 
-    public User(String name, String jobPosition, Calendar dateOfBirth) {
+    public User(String name, String jobTitle, Calendar dateOfBirth) {
         this.name = name;
-        this.jobPosition = jobPosition;
+        this.jobTitle = jobTitle;
         this.dateOfBirth = dateOfBirth;
     }
 }
