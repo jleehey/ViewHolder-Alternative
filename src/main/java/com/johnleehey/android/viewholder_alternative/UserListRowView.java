@@ -33,6 +33,8 @@ public class UserListRowView extends RelativeLayout {
         tv_userName = (TextView) findViewById(R.id.user_name);
         tv_jobTitle = (TextView) findViewById(R.id.user_title);
         tv_userDateOfBirth = (TextView) findViewById(R.id.user_age);
+
+        setBackgroundResource(android.R.color.white);
     }
 
     /**
